@@ -85,6 +85,7 @@ export function Home() {
                 <img
                   src={`https://image.tmdb.org/t/p/w342/${movie.poster_path}`}
                   alt={movie.title}
+                  fetchPriority="high"
                 />
                 <MovieInfo>
                   <h3>{movie.title}</h3>

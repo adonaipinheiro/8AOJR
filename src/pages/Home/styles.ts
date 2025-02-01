@@ -51,6 +51,7 @@ export const Header = styled.header`
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
   }
 
   img {
