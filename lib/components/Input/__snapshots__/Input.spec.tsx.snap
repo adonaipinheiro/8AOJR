@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`@components/Input > should match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gTrWKq eHFeyS"
+  >
+    <label
+      for="username"
+    >
+      <p
+        class="sc-dDvxFM coBwAw"
+      >
+        Username
+      </p>
+    </label>
+    <input
+      aria-invalid="false"
+      id="username"
+      name="username"
+    />
+  </div>
+</DocumentFragment>
+`;

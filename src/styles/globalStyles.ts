@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         -webkit-font-smoothing: antialiased;
         font-size: 16px;
+        font-family: "Roboto", "sans-serif";
     }
 
     h1 {
