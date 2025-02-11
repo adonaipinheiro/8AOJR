@@ -1,5 +1,5 @@
 import { Container, Logo, SignInArea } from "./styles";
-import { useSignIn } from "./useSignIn";
+import { useSignIn } from "./hooks/useSignIn";
 import { Button, Input } from "../../../lib";
 
 export function SignIn() {

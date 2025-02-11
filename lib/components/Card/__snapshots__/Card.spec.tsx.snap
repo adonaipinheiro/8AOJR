@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`@components/Card > should match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-labelledby="Card Title"
+    class="sc-gTrWKq jeOFHF"
+    role="article"
+  >
+    <img
+      alt="Card Title image"
+      aria-hidden="true"
+      fetchpriority="high"
+      src="path/to/image.jpg"
+    />
+    <div
+      class="sc-kuACkN cXDZFt"
+    >
+      <h3
+        class="sc-eaUbBy iWSPnl"
+        id="Card Title"
+      >
+        Card Title
+      </h3>
+      <p
+        class="sc-gaZyOd kvVxzq"
+      >
+        This is an overview of the card content.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
