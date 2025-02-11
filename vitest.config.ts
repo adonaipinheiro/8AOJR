@@ -6,7 +6,7 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     coverage: {
-      exclude: ['**/stories/**', '**/*.stories.tsx', ".storybook"],
+      exclude: ['**/stories/**', '**/*.stories.tsx', ".storybook", "storybook-static/**"],
     },
   }
 })

@@ -1,6 +1,6 @@
-import { Button, Container, Logo, SignInArea } from "./styles";
+import { Container, Logo, SignInArea } from "./styles";
 import { useSignIn } from "./useSignIn";
-import { Input } from "../../../lib";
+import { Button, Input } from "../../../lib";
 
 export function SignIn() {
   const { handleHome } = useSignIn();
@@ -22,7 +22,7 @@ export function SignIn() {
           placeholder="Digite aqui sua senha"
           errorMessage="Senha inválida"
         />
-        <Button onClick={handleHome}>Entrar</Button>
+        <Button text="Entrar" buttonStyle="primary" onClick={handleHome} />
       </SignInArea>
     </Container>
   );

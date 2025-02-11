@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`@components/Button > should match to snapshot 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="Entrar"
+    buttonstyle="primary"
+    class="sc-gTrWKq dbtOAl"
+  >
+    <p
+      class="sc-dDvxFM coBwAw"
+    >
+      Entrar
+    </p>
+  </button>
+</DocumentFragment>
+`;
